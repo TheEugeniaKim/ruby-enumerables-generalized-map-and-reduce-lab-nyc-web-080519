@@ -1,5 +1,6 @@
 def my_own_map
 end 
+
 def map_to_negativize(source_array)
   new = []
   i = 0
