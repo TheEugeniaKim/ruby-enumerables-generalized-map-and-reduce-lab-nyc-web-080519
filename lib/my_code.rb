@@ -15,7 +15,7 @@ def map_to_no_change(source_array)
   new = []
   i = 0
   while i < source_array.length do
-    new.push( source_array[i] ) # <== Unique work
+    new.push(yield(array) ) # <== Unique work
     i += 1
   end
   return new
